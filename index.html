@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Heyde Carlos — Automação, Bots e Soluções Web | Freelancer</title>
+  <meta name="description" content="Freelancer em automação de processos, bots, integrações com APIs e desenvolvimento web. Soluções práticas para reduzir trabalho manual e economizar tempo. Teófilo Otoni – MG." />
+  <meta name="author" content="Heyde Carlos Marinho" />
+  <meta name="theme-color" content="#0b0f14" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Heyde Carlos — Automação, Bots e Soluções Web" />
+  <meta property="og:description" content="Automatizo tarefas, integro sistemas e desenvolvo soluções digitais simples, práticas e funcionais para pequenos negócios e profissionais." />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Heyde Carlos — Automação, Bots e Soluções Web" />
+  <meta name="twitter:description" content="Soluções sob medida com foco em produtividade, organização e execução rápida." />
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b0f14'/%3E%3Cpath d='M9 22V10M9 16h7M16 10v12' stroke='%2338bdf8' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='23' cy='11' r='2' fill='%232dd4bf'/%3E%3C/svg%3E" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#servicos">Pular para o conteúdo</a>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Heyde Carlos — página inicial">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28">
+            <path d="M9 22V10M9 16h7M16 10v12" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <circle cx="23" cy="11" r="2" fill="var(--accent-2)"/>
+          </svg>
+        </span>
+        <span class="logo__text">Heyde<span class="logo__dot">.</span>Carlos</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Início</a></li>
+          <li><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li><a href="#projetos" class="nav__link">Projetos</a></li>
+          <li><a href="#tecnologias" class="nav__link">Tecnologias</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Alternar tema claro e escuro" title="Alternar tema">
+          <i data-lucide="moon" class="icon-moon"></i>
+          <i data-lucide="sun" class="icon-sun"></i>
+        </button>
+        <a href="#contato" class="btn btn--primary btn--sm header__cta">Solicitar orçamento</a>
+        <button class="nav-toggle" id="navToggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero section" id="inicio">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="badge reveal">
+            <span class="badge__dot" aria-hidden="true"></span>
+            Disponível para novos projetos
+          </span>
+          <h1 class="hero__title reveal">
+            Automação, bots e soluções web para
+            <span class="text-grad">economizar tempo</span> e reduzir trabalho manual.
+          </h1>
+          <p class="hero__subtitle reveal">
+            Ajudo pequenas empresas e profissionais a automatizar tarefas, integrar
+            sistemas e desenvolver soluções digitais simples, práticas e funcionais.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="https://wa.me/5532984825611" class="btn btn--primary" target="_blank" rel="noopener">
+              <i data-lucide="message-circle"></i> Falar no WhatsApp
+            </a>
+            <a href="#projetos" class="btn btn--ghost">
+              <i data-lucide="folder-open"></i> Ver projetos
+            </a>
+          </div>
+          <p class="hero__note reveal">
+            Soluções sob medida com foco em produtividade, organização e execução rápida.
+          </p>
+        </div>
+
+        <!-- Elemento visual: terminal + dashboard abstrato (HTML/CSS puro) -->
+        <div class="hero__visual reveal" aria-hidden="true">
+          <div class="window">
+            <div class="window__bar">
+              <span class="window__dot"></span>
+              <span class="window__dot"></span>
+              <span class="window__dot"></span>
+              <span class="window__title">automacao.py</span>
+            </div>
+            <pre class="window__body"><code><span class="c-key">def</span> <span class="c-fn">automatizar</span>(tarefa):
+    <span class="c-cmt"># reduz o trabalho manual</span>
+    resultado = executar(tarefa)
+    <span class="c-key">return</span> resultado
+
+<span class="c-fn">automatizar</span>(<span class="c-str">"relatórios"</span>)
+<span class="c-ok">✓ 3h/dia economizadas</span></code></pre>
+          </div>
+
+          <div class="floating-card floating-card--1">
+            <i data-lucide="bot"></i>
+            <div>
+              <strong>Bot online</strong>
+              <span>respondendo 24/7</span>
+            </div>
+          </div>
+          <div class="floating-card floating-card--2">
+            <i data-lucide="zap"></i>
+            <div>
+              <strong>API integrada</strong>
+              <span>dados centralizados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVIÇOS ===================== -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Serviços</span>
+          <h2 class="section__title">Como posso ajudar seu negócio</h2>
+          <p class="section__desc">Soluções técnicas voltadas a um objetivo prático: menos trabalho manual, mais tempo livre e processos que funcionam sozinhos.</p>
+        </div>
+
+        <div class="grid grid--services">
+          <article class="card reveal">
+            <span class="card__icon"><i data-lucide="workflow"></i></span>
+            <h3 class="card__title">Automação com Python e Node.js</h3>
+            <p class="card__text">Criação de scripts e fluxos para eliminar tarefas manuais e acelerar processos.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon"><i data-lucide="bot"></i></span>
+            <h3 class="card__title">Bots para Discord, Telegram e WhatsApp</h3>
+            <p class="card__text">Bots para atendimento, notificações e automação de rotinas do dia a dia.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon"><i data-lucide="plug"></i></span>
+            <h3 class="card__title">Integração com APIs</h3>
+            <p class="card__text">Conexão entre plataformas e sistemas para automatizar operações e trocar dados.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon"><i data-lucide="terminal"></i></span>
+            <h3 class="card__title">Scripts personalizados</h3>
+            <p class="card__text">Automação de tarefas repetitivas, tratamento de dados e organização de informações.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon"><i data-lucide="layout-dashboard"></i></span>
+            <h3 class="card__title">Landing Pages e Sistemas Web</h3>
+            <p class="card__text">Desenvolvimento de aplicações leves, rápidas e funcionais, feitas sob medida.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon"><i data-lucide="sparkles"></i></span>
+            <h3 class="card__title">Soluções com IA</h3>
+            <p class="card__text">Recursos de inteligência artificial aplicados a atendimento e produtividade.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJETOS ===================== -->
+    <section class="section section--alt" id="projetos">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Projetos</span>
+          <h2 class="section__title">Exemplos de problemas resolvidos</h2>
+          <p class="section__desc">Cada projeto parte de um problema real e termina em um resultado mensurável.</p>
+        </div>
+
+        <div class="grid grid--projects">
+          <article class="project reveal">
+            <span class="project__tag">Bot</span>
+            <h3 class="project__title">Bot de Atendimento Automatizado</h3>
+            <dl class="project__list">
+              <div><dt>Problema</dt><dd>Respostas lentas aos clientes.</dd></div>
+              <div><dt>Solução</dt><dd>Bot para respostas automáticas e direcionamento de atendimentos.</dd></div>
+              <div><dt>Resultado</dt><dd>Menos trabalho manual e atendimento mais rápido.</dd></div>
+            </dl>
+            <ul class="project__tech"><li>Node.js</li><li>Telegram API</li><li>Testes</li></ul>
+            <a class="project__link" href="https://github.com/Carlosmarinh/bot-atendimento" target="_blank" rel="noopener">
+              <i data-lucide="github"></i> Ver no GitHub <i data-lucide="arrow-up-right"></i>
+            </a>
+          </article>
+
+          <article class="project reveal">
+            <span class="project__tag">Automação</span>
+            <h3 class="project__title">Automação de Rotinas</h3>
+            <dl class="project__list">
+              <div><dt>Problema</dt><dd>Processos repetitivos consumiam horas diariamente.</dd></div>
+              <div><dt>Solução</dt><dd>Script personalizado para executar as rotinas.</dd></div>
+              <div><dt>Resultado</dt><dd>Economia de tempo e redução de erros.</dd></div>
+            </dl>
+            <ul class="project__tech"><li>Python</li><li>CSV</li><li>Relatório HTML</li></ul>
+            <a class="project__link" href="https://github.com/Carlosmarinh/automacao-rotinas" target="_blank" rel="noopener">
+              <i data-lucide="github"></i> Ver no GitHub <i data-lucide="arrow-up-right"></i>
+            </a>
+          </article>
+
+          <article class="project reveal">
+            <span class="project__tag">Integração</span>
+            <h3 class="project__title">Painel Integrado com API</h3>
+            <dl class="project__list">
+              <div><dt>Problema</dt><dd>Dados espalhados em diversas plataformas.</dd></div>
+              <div><dt>Solução</dt><dd>Dashboard integrado consumindo várias APIs.</dd></div>
+              <div><dt>Resultado</dt><dd>Centralização e consulta rápida das informações.</dd></div>
+            </dl>
+            <ul class="project__tech"><li>JavaScript</li><li>Fetch API</li><li>3 APIs públicas</li></ul>
+            <div class="project__links">
+              <a class="project__link" href="https://github.com/Carlosmarinh/painel-integrado-api" target="_blank" rel="noopener">
+                <i data-lucide="github"></i> Ver no GitHub
+              </a>
+              <a class="project__link project__link--demo" href="https://Carlosmarinh.github.io/painel-integrado-api/" target="_blank" rel="noopener">
+                <i data-lucide="external-link"></i> Demo ao vivo
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TECNOLOGIAS ===================== -->
+    <section class="section" id="tecnologias">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Tecnologias</span>
+          <h2 class="section__title">Ferramentas que uso no dia a dia</h2>
+          <p class="section__desc">Stack escolhida pela confiabilidade e pela rapidez de entrega.</p>
+        </div>
+
+        <ul class="chips reveal" aria-label="Lista de tecnologias">
+          <li class="chip"><i data-lucide="code-2"></i> Python</li>
+          <li class="chip"><i data-lucide="braces"></i> JavaScript</li>
+          <li class="chip"><i data-lucide="hexagon"></i> Node.js</li>
+          <li class="chip"><i data-lucide="file-code-2"></i> HTML5</li>
+          <li class="chip"><i data-lucide="palette"></i> CSS3</li>
+          <li class="chip"><i data-lucide="git-branch"></i> Git</li>
+          <li class="chip"><i data-lucide="github"></i> GitHub</li>
+          <li class="chip"><i data-lucide="plug"></i> APIs REST</li>
+          <li class="chip"><i data-lucide="workflow"></i> Automação</li>
+          <li class="chip"><i data-lucide="sparkles"></i> IA aplicada</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE ===================== -->
+    <section class="section section--alt" id="sobre">
+      <div class="container about">
+        <div class="about__media reveal" aria-hidden="true">
+          <div class="about__panel">
+            <div class="about__stat"><strong>Prático</strong><span>foco em resultado</span></div>
+            <div class="about__stat"><strong>Objetivo</strong><span>sem complicação</span></div>
+            <div class="about__stat"><strong>Organizado</strong><span>entrega consistente</span></div>
+          </div>
+        </div>
+        <div class="about__content reveal">
+          <span class="eyebrow">Sobre mim</span>
+          <h2 class="section__title">Sobre mim</h2>
+          <p class="about__text">
+            Atuo com tecnologia, automação e resolução de problemas. Meu foco é
+            desenvolver soluções úteis, objetivas e funcionais para reduzir tarefas
+            repetitivas e melhorar a produtividade. Valorizo organização, clareza
+            técnica e implementação prática para entregar resultados consistentes.
+          </p>
+          <ul class="about__points">
+            <li><i data-lucide="check"></i> Suporte técnico e resolução de problemas</li>
+            <li><i data-lucide="check"></i> Automação de processos e integrações</li>
+            <li><i data-lucide="check"></i> Comunicação clara e entregas no prazo</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTATO ===================== -->
+    <section class="section" id="contato">
+      <div class="container">
+        <div class="contact reveal">
+          <div class="contact__text">
+            <span class="eyebrow">Contato</span>
+            <h2 class="section__title">Vamos conversar sobre seu projeto</h2>
+            <p class="section__desc">
+              Se você precisa automatizar processos, integrar sistemas ou desenvolver
+              uma solução prática para seu negócio, entre em contato.
+            </p>
+          </div>
+          <div class="contact__actions">
+            <a href="https://wa.me/5532984825611" class="contact__link" target="_blank" rel="noopener">
+              <span class="contact__icon"><i data-lucide="message-circle"></i></span>
+              <span><strong>WhatsApp</strong><small>(32) 98482-5611</small></span>
+              <i data-lucide="arrow-up-right" class="contact__arrow"></i>
+            </a>
+            <a href="mailto:heydecarlos@gmail.com" class="contact__link">
+              <span class="contact__icon"><i data-lucide="mail"></i></span>
+              <span><strong>E-mail</strong><small>heydecarlos@gmail.com</small></span>
+              <i data-lucide="arrow-up-right" class="contact__arrow"></i>
+            </a>
+            <a href="https://github.com/Carlosmarinh" class="contact__link" target="_blank" rel="noopener">
+              <span class="contact__icon"><i data-lucide="github"></i></span>
+              <span><strong>GitHub</strong><small>@Carlosmarinh</small></span>
+              <i data-lucide="arrow-up-right" class="contact__arrow"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/heyde-carlos/" class="contact__link" target="_blank" rel="noopener">
+              <span class="contact__icon"><i data-lucide="linkedin"></i></span>
+              <span><strong>LinkedIn</strong><small>in/heyde-carlos</small></span>
+              <i data-lucide="arrow-up-right" class="contact__arrow"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <span class="footer__name">Heyde Carlos Marinho</span>
+        <span class="footer__city">Teófilo Otoni – MG, Brasil</span>
+      </div>
+      <p class="footer__msg">Soluções de tecnologia feitas sob medida. &copy; <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <!-- Botão voltar ao topo -->
+  <button class="to-top" id="toTop" type="button" aria-label="Voltar ao topo">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
